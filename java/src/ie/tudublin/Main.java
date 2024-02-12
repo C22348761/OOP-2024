@@ -1,4 +1,3 @@
-
 // Packages must match the folder structure
 package ie.tudublin;
 
@@ -8,7 +7,7 @@ public class Main
 	public void helloProcessing()
 	{
 		String[] a = {"MAIN"};
-        processing.core.PApplet.runSketch( a, new HelloProcessing());
+        processing.core.PApplet.runSketch( a, new MultiSensoryFoLoopExperience());
     }
 
 	public void doDogStuff()
